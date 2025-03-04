@@ -5,15 +5,42 @@
     border-radius: 50%;
     margin: 0 auto;
     position: relative;
-    
-    left: 0px;
-    top: 30px;
+    text-align: center;
+    left: 850px;
+    top: 90px;
     box-shadow: 2px 20px 10px;
-    
 }
 
-.annoy{
+
+
+.button1{
+    margin: 0 auto;
+    left: 100px;
+    align-items: center;
+}
+
+#text{
     margin: 0 auto;
     position: relative;
-   text-align: center;
+    left: 800px;
+}
+
+
+@keyframes move_venus{
+    0%{
+        transform:rotate(0deg)
+            translateX(100px) rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-360deg)
+        translatex(100px) rotate(360deg);
+    }
+
+}
+
+
+.rotate{
+    animation: move_venus 0.80s linear infinite;
+
 }

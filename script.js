@@ -43,14 +43,26 @@ text.innerHTML = "hey Stop";
                                                    text.innerHTML = "BOOM BOOM BOOM BOOM";
                                                       }
                                                       if( clicks == 21 ){
+                                                         button1.classList.add("rotate");
                                                          text.innerHTML = "But serously stop pressing the button";
+                                                         
                                                             }
                                                             if( clicks == 22 ){
+                                                               button1.classList.remove("rotate")
                                                                text.innerHTML = "something bad might happent to Lebron";
                                                                   }
                                                                   if( clicks == 23 ){
                                                                      text.innerHTML = "if you press it again hes going to retire";
                                                                         }
+                                                                        if( clicks == 24 ){
+                                                                     text.innerHTML = "NOOOOOOOOO";
+                                                                     if( clicks == 26 ){
+                                                                        text.innerHTML = "i know where you live...";
+                                                                           }
+                                                                        }
+                                                                        if( clicks == 23 ){
+                                                                           text.innerHTML = "your not safe from me...";
+                                                                              }
 
 
 }
