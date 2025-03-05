@@ -1,6 +1,6 @@
-let text = document.getElementById("text");
-let button1 = document.getElementById("button1");
-
+const text = document.getElementById("text");
+const button1 = document.getElementById("button1");
+const container = document.getElementById("container")
 
 
 let clicks=0;
@@ -58,10 +58,17 @@ text.innerHTML = "hey Stop";
                                                                      text.innerHTML = "NOOOOOOOOO";
                                                                      if( clicks == 26 ){
                                                                         text.innerHTML = "i know where you live...";
+                                                                        
                                                                            }
                                                                         }
-                                                                        if( clicks == 23 ){
+                                                                        if( clicks == 27 ){
                                                                            text.innerHTML = "your not safe from me...";
+                                                                           const button2 = document.createElement("button");
+                                                                           button2.innerHTML = "PRESS ME";
+                                                                           button2.classList.add("button1");
+                                                                           button2.classList.add("button2");
+                                                                           container.appendChild(button2);
+                                                                           
                                                                               }
 
 

@@ -17,6 +17,10 @@
     margin: 0 auto;
     left: 100px;
     align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 50%;
 }
 
 #text{
@@ -44,3 +48,9 @@
     animation: move_venus 0.80s linear infinite;
 
 }
+
+.button2 {
+    background-color: blue;
+    
+}
+
