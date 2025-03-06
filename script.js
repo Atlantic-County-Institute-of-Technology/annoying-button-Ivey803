@@ -2,11 +2,12 @@ const text = document.getElementById("text");
 const button1 = document.getElementById("button1");
 const container = document.getElementById("container")
 
-
+let lebron = new Audio('assets/lebron.mp3');
+let clicking= new Audio('assets/clicking.mp3')
 let clicks=0;
 
 button1.addEventListener("click", yell_at_user);
-
+clicking.play();
 function yell_at_user() {
    clicks++;
    if( clicks == 1 ){
@@ -41,6 +42,7 @@ text.innerHTML = "hey Stop";
                                                 }
                                                 if( clicks == 20 ){
                                                    text.innerHTML = "BOOM BOOM BOOM BOOM";
+                                                   lebron.play();
                                                       }
                                                       if( clicks == 21 ){
                                                          button1.classList.add("rotate");
