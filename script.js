@@ -65,13 +65,23 @@ text.innerHTML = "hey Stop";
                                                                         }
                                                                         if( clicks == 27 ){
                                                                            text.innerHTML = "your not safe from me...";
-                                                                           const button2 = document.createElement("button");
-                                                                           button2.innerHTML = "PRESS ME";
-                                                                           button2.classList.add("button1");
-                                                                           button2.classList.add("button2");
-                                                                           container.appendChild(button2);
                                                                            
+                                                                         
+                                                                          
                                                                               }
+                                                                              if( clicks == 28 ){
+                                                                                 text.innerHTML = "i will wind your address ";
+                                                                                 
+                                                                                    }
+                                                                                    if( clicks == 29 ){
+                                                                                       text.innerHTML = "is it about 6-7 miles away? ";
+                                                                                       
+                                                                                          }
+
+                                                                                          if( clicks == 30 ){
+                                                                                             text.innerHTML = "i am coming to your house good bye. ";
+                                                                                             
+                                                                                                }
 
 
 }
