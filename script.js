@@ -1,13 +1,14 @@
 const text = document.getElementById("text");
 const button1 = document.getElementById("button1");
 const container = document.getElementById("container")
-
+// this audion is for a button click that includes lebron // 
 let lebron = new Audio('assets/lebron.mp3');
 let clicking= new Audio('assets/clicking.mp3')
 let clicks=0;
 
 button1.addEventListener("click", yell_at_user);
 clicking.play();
+// this is the function that allow the button to speak//
 function yell_at_user() {
    clicks++;
    if( clicks == 1 ){
@@ -45,11 +46,13 @@ text.innerHTML = "hey Stop";
                                                    lebron.play();
                                                       }
                                                       if( clicks == 21 ){
+                                                         // the button.classlist.add, adds the class to the button so it can rotate.//
                                                          button1.classList.add("rotate");
                                                          text.innerHTML = "But serously stop pressing the button";
                                                          
                                                             }
                                                             if( clicks == 22 ){
+                                                              // this removes the class so when the button is pressed agin it stops circleing around//
                                                                button1.classList.remove("rotate")
                                                                text.innerHTML = "something bad might happent to Lebron";
                                                                   }
@@ -80,8 +83,7 @@ text.innerHTML = "hey Stop";
 
                                                                                           if( clicks == 30 ){
                                                                                              text.innerHTML = "i am coming to your house good bye. ";
-                                                                                             
-                                                                                                }
+  }
 
 
 }

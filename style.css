@@ -1,3 +1,4 @@
+/*this is how the button is turned to a circle and is red */
 #button1{
     height: 300px;
     width: 300px;
@@ -15,14 +16,14 @@
 
 
 
-
+/*this allows me to be able to move the text to the middle of the screen so it can appear above the button. */
 #text{
     margin: 0 auto;
     position: relative;
     left: 800px;
 }
 
-
+/*this allows me to be able to make the circle spin around the certain amount of times it gets clicked. */
 @keyframes move_venus{
     0%{
         transform:rotate(0deg)
@@ -36,7 +37,7 @@
 
 }
 
-
+/* this is the class for the keyframes which allows the button to circle around */
 .rotate{
     animation: move_venus 0.80s linear infinite;
 
